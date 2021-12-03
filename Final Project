@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project 1</title>
+    <style>
+        .button:hover {
+          transition: margin-right 2s, color 1s;
+         
+        }
+    
+        
+        body{
+            background: linear-gradient(to right top, pink, rgb(170, 255, 170));
+        }
+           
+      img{
+        margin: auto;
+        display: block;
+        border: thick double rgb(0, 255, 221);
+        box-shadow:1px 3px 1px 3px rgb(233, 105, 179)
+      }
+      h1{
+      color: rgb(241, 13, 89);
+      font-size: 35px;
+      text-align: center;
+      line-height: 48px;
+      margin: 10px; 
+      padding: 20px;
+      font-weight: bolder;
+      border: thick double rgb(231, 229, 97); 
+      box-shadow: 3px 5px 3px 5px rgb(226, 37, 69);
+      
+      }  
+      h2{
+      color:rgb(241, 13, 89);
+      font-size: 28px;
+      line-height: 40px;
+      margin: 10px;
+      padding: 20px;
+      font-weight: bolder;
+      }
+      h3{
+      color: rgb(241, 13, 89);
+      font-size: 28px; 
+      line-height: 40px;
+      margin: 10px;
+      padding: 20px;
+      font-weight: bolder;
+      }
+
+      p{
+        color:rgb(30, 156, 206);
+        font-size: 20px;
+      }
+      .skyblue{
+          color: rgb(163, 121, 241);
+      }
+      button{
+          color:peru;
+          font-size: 25px;
+          cursor: pointer;
+          background-color : rgb(201, 241, 142);
+          text-align: center;
+          font-weight: bolder;
+          margin: auto;
+          display: block;
+          border: thick double rgb(0, 255, 221); 
+          box-shadow: 3px 10px 3px 10px rgb(226, 37, 69);
+          
+       
+    
+        }
+        
+    </style>
+  </head>
+
+  <body>
+      
+     
+    <Strong>
+    <h1>
+    <em>
+    Music : The Most Universal Language
+    </em>
+    </h1>
+    </Strong>
+    <br />
+    <hr />
+    <Strong>
+    <h2>
+    <em>
+    Why is Music a Universal Language ?
+    </em>
+    </h2>
+    </Strong>
+
+    <p class="skyblue">
+      <strong>
+        Music can be considered a universal lanaguage because of its elements.
+        One of its most important attributes is the emotion is has! Emotion in
+        music is defined as the "ability to evoke powerful emotional responses
+        in listeners (Psychology, Fagan)". Many of us listen to music almost
+        everyday, or at least some of us. Some of us put music on to help us
+        cope with something we are experience, help us understand whart we are
+        feeling, or just plain wanting to cure us of our boredom, or just for
+        the reason of enjoying how the music sounds, loving the lyrics, etc.
+        Alot of times a person can be sad and will want to feel comfort by
+        listening to a song they feel has the lyrics that relate to what they
+        are experiencing. When happy ypu want to listen to something upbeat and
+        with a tempo. When bored I like to listen to the new songs that come out
+        every week. Music is universal because of how many different languages,
+        and genres it comes in. There's Pop, Rock, HipHop, Country, Gospel,
+        Christian contemporary, Latin, R&B, and so much more.
+      </strong>
+    </p>
+    <hr />
+   <Strong>
+    <h3>
+    <em>
+    Music is special
+    </em>
+    </h3>
+  </Strong>
+    <p>
+      <strong>
+        With a wide variety to choose from, music is able to connect all
+        cultures together even if the song is in a diffrerent language.
+        Connection through songs is possible because of the melody, rhythm, and
+        tempo. A song is made from different sounds that come from arranging
+        musical notes that evoke a specific emotion. The lyrics help accompany
+        the different melodies by adding a specific meaning to the song which in
+        turn helps add an extra layer of connection. If you are needing
+        something to help cope with this stressful life, Muisc can definetly
+        become your outlet. Beside its one of the most used outlet in the Arts !
+      </p>
+      </strong>
+      <hr/>
+      <br/>
+    </p>
+    <a href="https://i1.sndcdn.com/">
+        <img
+        src="https://i1.sndcdn.com/artworks-NyeXNR9AqcRi6fan-lOLz5A-t500x500.jpg"
+        alt="sndcdn"
+        width="400"
+      />
+    </a>
+    <br/>
+    <button>
+      Most Popular Songs  
+    </button>
+    <script>
+        function mostPopular(){
+    
+   
+     let songs = prompt("What genre do you like?");
+        if (songs === "Pop" || songs === "HipHop"){
+            alert("You are Awesome!!!");
+        } else {
+            alert("You are Wonderful!!!");
+        }
+        }
+
+
+        let mostPopularButton = document.querySelector("button");
+        mostPopularButton.addEventListener("click", mostPopular);
+
+    </script>
+  </body>
+</html>
